@@ -39,8 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReverseService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReverseConsole.Common\ReverseConsole.Common.csproj">
+      <Project>{8A990D8D-1E22-4ECE-83BE-88CB8E9EE5AD}</Project>
+      <Name>ReverseConsole.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

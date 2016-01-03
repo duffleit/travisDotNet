@@ -48,6 +48,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReverseConsole.Common\ReverseConsole.Common.csproj">
+      <Project>{8a990d8d-1e22-4ece-83be-88cb8e9ee5ad}</Project>
+      <Name>ReverseConsole.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReverseConsole.Core\ReverseConsole.Core.csproj">
+      <Project>{97CE5349-5A9D-4CDE-ACB4-1A0510A25DBF}</Project>
+      <Name>ReverseConsole.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
